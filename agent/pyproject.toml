@@ -1,0 +1,27 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "An agent configured entirely through files on disk"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.4",
+    "deepagents>=0.3.5",
+    "fastapi>=0.116.0",
+    "google-genai>=1.0.0",
+    "langchain-openai>=1.1.10",
+    "langchain-tavily>=0.2.17",
+    "langgraph-cli[inmem]>=0.4.12",
+    "markdownify>=1.2.2",
+    "pillow>=10.0.0",
+    "pymupdf>=1.27.1",
+    "pypdf>=6.8.0",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.0",
+    "rich>=13.0.0",
+    "tavily-python>=0.5.0",
+    "uvicorn>=0.35.0",
+]
+
+[dependency-groups]
+dev = []
